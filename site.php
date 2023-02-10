@@ -91,5 +91,22 @@ echo "<hr>";
 
 Answer:<?php echo $_GET["num1"] + $_GET["num2"] ?>
 
+<form action="site.php" method="get">
+  Color: <input type="type" name="color"><br>
+  Noun: <input type="type" name="plural_noun"><br>
+  Celebrity: <input type="type" name="celebrity"><br>
+  <input type="submit">
+</form>
+<br><br>
+
+<?php
+$color = $_GET["color"];
+$plural_noun = $_GET["plural_noun"];
+$celebrity = $_GET["celebrity"];
+  echo "Roses are $color<br>";
+  echo "$plural_noun are blue<br>";
+  echo "I love $celebrity <br>";
+?>
+
 </body>
 </html>
