@@ -41,7 +41,7 @@
   echo "Hello this is a string. You can store strings in a variable.<br>";
   $phrase = "Hello this a string stored in a variable.<br>";
   echo $phrase;
-  echo "<h2>String Functions</h2>";
+  echo "<h3>String Functions</h3>";
   echo "<p>String functions are the equivalent of string methods in Ruby.<br>";
   echo "<hr>";
   echo "Below is using the function 'strtoupper()' to uppercase:<br>";
@@ -63,7 +63,15 @@
   echo "5++ will give:</br>";
   $num ++;
   echo $num;
-
+  echo "<p>Increment operator works exactly the same as Ruby += or -=:<br>";
+  echo $num += 10;
+  echo "<br> Absolute value = abs()<br>";
+  echo abs(-100);
+  echo "<h2>Getting input from a user:</h2>";
+  echo "<hr>";
   ?>
+    <form action="site.php" method="get">
+      Name: <input type="text" name="name">
+    </form>
 </body>
 </html>
