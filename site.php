@@ -72,6 +72,24 @@
   ?>
     <form action="site.php" method="get">
       Name: <input type="text" name="name">
+      <input type="submit">
     </form>
+
+<?php
+echo $_GET["name"];
+echo "<br>";
+echo "<h2>Basic calculator</h2>";
+echo "<hr>";
+?>
+
+<form action="site.php" method="get">
+  <input type="number" name="num1">
+  <br>
+  <input type="number" name="num2">
+  <input type="submit">
+</form>
+
+Answer:<?php echo $_GET["num1"] + $_GET["num2"] ?>
+
 </body>
 </html>
