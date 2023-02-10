@@ -25,6 +25,32 @@
   echo "<p>Variables can be updated through your programme.<br>";
   $character_name = "Rob";
   echo "The variable '$ character_name' now stores the name as <strong>$character_name</strong> <br>";
+  echo "<h2>Data Types</h2>";
+  echo "<hr>";
+  $string = "String is put in 'quotes'.<br>";
+  echo "$string";
+  $integer = 31;
+  $float = 31.42;
+  echo "Integers are whole numbers, e.g. $integer<br>";
+  echo "Float/floating points are decimals, e.g. $float<br>";
+  $boolean = true;
+  echo "PHP also has the data type boolean.<br>";
+  echo "Null is also a data type - no value.<br>";
+  echo "<h2>Strings</h2>";
+  echo "<hr>";
+  echo "Hello this is a string. You can store strings in a variable.<br>";
+  $phrase = "Hello this a string stored in a variable.<br>";
+  echo $phrase;
+  echo "<h2>String Functions</h2>";
+  echo "<p>String functions are the equivalent of string methods in Ruby.<br>";
+  echo "<hr>";
+  echo "Below is using the function 'strtoupper()' to uppercase:<br>";
+  echo strtoupper($phrase);
+  echo "'strlen()' to character length:<br>";
+  echo strlen($phrase);
+  echo "<br>";
+  echo "[] is used to find the index of a character in a string:<br>";
+  echo $phrase[0];
   ?>
 </body>
 </html>
