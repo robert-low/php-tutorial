@@ -21,7 +21,10 @@
   echo "Variables are written starting with a $ sign, in camel_case.<br>";
   echo "<br>";
   echo "There once was a man named <strong>$character_name</strong> <br>";
-  echo "He was <strong>$character_age</strong> years old.";
+  echo "He was <strong>$character_age</strong> years old.<br>";
+  echo "<p>Variables can be updated through your programme.<br>";
+  $character_name = "Rob";
+  echo "The variable '$ character_name' now stores the name as <strong>$character_name</strong> <br>";
   ?>
 </body>
 </html>
