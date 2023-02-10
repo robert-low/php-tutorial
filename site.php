@@ -51,6 +51,19 @@
   echo "<br>";
   echo "[] is used to find the index of a character in a string:<br>";
   echo $phrase[0];
+  echo "'str_replace() takes 3 args and allows you to replace words in a string: <br>";
+  echo str_replace("Hello", "Goodbye", $phrase);
+  echo "substr() will allow you to pick out a subsection of a string: <br>";
+  echo substr($phrase, 6, 4);
+  echo "<h2>Numbers</h2>";
+  echo "<hr>";
+  echo "<p>Use ++ to add one to a number. i.e. 1 + 1 gives 2 or 1 ++ gives 2<br>";
+  echo $num = 5;
+  echo "<br>";
+  echo "5++ will give:</br>";
+  $num ++;
+  echo $num;
+
   ?>
 </body>
 </html>
